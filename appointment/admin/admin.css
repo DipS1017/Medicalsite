@@ -1,0 +1,80 @@
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    padding: 20px;
+    overflow: none;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.nav-bar{
+    display: flex;
+    gap: 10px;
+}
+.nav-bar  a{
+    color: white;
+    font-weight: bold;
+}
+.nav-bar a:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(223, 67, 67);
+}
+/* Table styles */
+table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+header {
+	background-color: #333333;
+	padding: 5px 10px;
+	box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
+	position: sticky;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	z-index: 1;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 10px; 
+    
+}
+table th, table td {
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+/* Appointments section */
+#appointments-section {
+    background-color: #e5f7ff;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+#appointments-section h2 {
+    color: #007bff;
+}
+
+/* Contacts section */
+#contacts-section {
+    background-color: #fff0f0;
+    padding: 20px;
+}
+
+#contacts-section h2 {
+    color: #ff0000;
+}
+
+
+

@@ -1,0 +1,51 @@
+.container{
+    max-width: 100%;
+    margin: auto;
+}
+.display-card{
+	padding: 30px;
+    margin-top: 5px;
+    display: flex;
+    gap: 19px;
+    overflow: hidden;
+    flex-wrap: wrap;
+    align-content: start;
+    background-color: #f7f7f7;
+}
+.card{
+	border: 1px solid gray;
+    max-width: 275px;
+    padding: 10px 5px ;
+    text-align: center;
+    font-size:medium;
+
+}
+.card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 160px;
+}
+.card img{
+    max-width: 275px;
+    max-height: 200px;
+}
+.card .name,.department{
+    font-weight: bold;
+}
+.card .description{
+    font-size: small;
+}
+.apt-btn a{
+    display: inline-block;
+    margin-top: 5px;
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:#0077cc;
+    color: white;
+    text-decoration: none;
+}
+.apt-btn a:hover{
+    background-color:#005ea2;
+}
