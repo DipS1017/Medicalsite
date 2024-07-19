@@ -23,7 +23,7 @@ if (isset($_POST['login'])) {
 
     if (mysqli_num_rows($result) == 1) {
        
-        header("Location: admin panel.php");
+        header("Location: Admin Panel.php");
         exit();
     } else {
         
